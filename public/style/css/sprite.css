@@ -1,0 +1,54 @@
+.svg-IcoMoon {
+	background: url("svg/sprite.css-74d48750.svg") 0 0 no-repeat;
+}
+
+.svg-IcoMoon-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-film {
+	background: url("svg/sprite.css-74d48750.svg") 50% 0 no-repeat;
+}
+
+.svg-film-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-home {
+	background: url("svg/sprite.css-74d48750.svg") 0 100% no-repeat;
+}
+
+.svg-home-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-play {
+	background: url("svg/sprite.css-74d48750.svg") 50% 100% no-repeat;
+}
+
+.svg-play-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-quill {
+	background: url("svg/sprite.css-74d48750.svg") 100% 0 no-repeat;
+}
+
+.svg-quill-dims {
+	width: 32px;
+	height: 32px;
+}
+
+.svg-svg {
+	background: url("svg/sprite.css-74d48750.svg") 100% 100% no-repeat;
+}
+
+.svg-svg-dims {
+	width: 32px;
+	height: 32px;
+}
+

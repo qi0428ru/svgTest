@@ -1,0 +1,67 @@
+<!-- 可以是.svg文件
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"> -->
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>svg基本图形</title>
+      <style type="text/css">
+         body{
+            height:1000px;
+         }
+      </style>
+   </head>
+<body>
+<!--svg表示根元素-->
+   <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+      
+      <!--矩形-->
+      <!--opacity表示透明度-->
+      <rect width="300" height="100"
+      style="fill:rgb(0,0,255);stroke-width:1;
+      stroke:rgb(0,0,0);opacity:0.5"/>
+      <!--rx,ry可使矩形产生圆角
+      stroke-opacity表示边框的透明度
+      fill-opacity表示填充物的透明度
+      -->
+      <rect x="120" y="120" width="30" height="30" fill="red" stroke="black" stroke-width="2" rx="10" fill-opacity="0.9" stroke-opacity="0.5"/>
+      <!--圆-->
+      <!--cx和cy定义圆的x，y坐标-->
+      <circle cx="100" cy="250" r="40" stroke="black"
+      stroke-width="2" fill="red"/>
+      <!--椭圆-->
+      <!--cx 属性定义圆点的 x 坐标
+         cy 属性定义圆点的 y 坐标
+         rx 属性定义水平半径
+         ry 属性定义垂直半径-->
+      <ellipse cx="220" cy="400" rx="200" ry="80"
+         style="fill:rgb(200,100,50);stroke:rgb(0,0,100);stroke-width:2"/>
+      <!--组合椭圆-->
+      <ellipse cx="220" cy="600" rx="220" ry="30" style="fill:purple"/>
+      <ellipse cx="200" cy="570" rx="190" ry="20" style="fill:lime"/>
+      <ellipse cx="190" cy="545" rx="170" ry="15" style="fill:yellow"/>
+      <!--线-->
+      <line x1="0" y1="650" x2="300" y2="950" style="stroke:rgb(99,99,99);stroke-width:2"/>
+      <!--多边形-->
+      <polygon points="320,700 400,810 270,850 223,834" style="fill:#cccccc;stroke:#000000;stroke-width:1"/>
+      <!--折线-->
+      <polyline points="50,650 50,670 70,670 70,690 90,690 90,710" style="fill:white;stroke:red;stroke-width:2"/>
+      <!--路径-->
+      <path d="M153 684
+               C153 684 151 684 151 684
+               C151 689 153 694 156 694
+               C164 694 171 689 171 684
+               C171 672 164 664 156 664
+               C142 664 131 672 131 684
+               C131 700 142 714 156 714
+               C175 714 191 700 191 684
+               C191 661 175 644 156 644
+               C131 644 111 661 111 684
+               C111 711 131 734 156 734
+               C186 734 211 711 211 684
+               C211 650 186 624 156 624"
+            style="fill:white;stroke:red;stroke-width:2"/>
+   </svg>
+</body>
+</html>
